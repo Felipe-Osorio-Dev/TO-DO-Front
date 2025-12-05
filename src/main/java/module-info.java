@@ -7,6 +7,6 @@ module com.dev.osorio.todofront {
     requires org.kordamp.ikonli.javafx;
     requires org.kordamp.bootstrapfx.core;
 
-    opens com.dev.osorio.todofront to javafx.fxml;
+    opens com.dev.osorio.todofront.controller to javafx.fxml;
     exports com.dev.osorio.todofront;
 }
